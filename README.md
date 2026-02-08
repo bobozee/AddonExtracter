@@ -7,7 +7,11 @@ This script is meant to work with locally installed addons. It does **not** work
 Make sure to be signed into Steam if you wish for your workshop addon to be updated, as this script uses *gmpublish.exe* from your Garry's Mod installation.
 
 ## Usage:
+
   - **-workshopId**: The ID of your workshop (content) addon. If left blank, this script will just directly throw out the content compressed into one folder, called *extracted-addon-content*, at the same location as the script.
+
   - **-changeNote**: The change note to push to the workshop update. Defaults to "*Updated content*" if left blank.
+
   - **-addonsDir**: The path to your Garry's Mod addons. These have to be extracted addons (with lua, models, etc folder, NOT .gma). Defaults to "*C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\addons*" if left blank.
+
   - **-garrysBinDir**: The path to your Garry's Mod bin folder. Defaults to "*C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\bin*" if left blank.
