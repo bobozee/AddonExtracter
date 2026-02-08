@@ -14,6 +14,6 @@ Make sure to be signed into Steam if you wish for your workshop addon to be upda
     
   - **-addonJson**: The path to the *addon.json* file for your workshop addon. Defaults to the current directory.
 
-  - **-addonsDir**: The path to your Garry's Mod addons. These have to be extracted addons (with lua, models, etc folder, NOT .gma). If you extract local addons from your server, then point to the addons folder of your server. Defaults to "*C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\addons*" if left blank.
+  - **-addonsDir**: The path to your Garry's Mod addons. These have to be extracted addons (with lua, models, etc folder, NOT .gma). If you extract local addons from your server, then point to the addons folder of your server. Defaults to "*C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\garrysmod\addons*" if left blank.
 
   - **-garrysBinDir**: The path to your Garry's Mod bin folder. Defaults to "*C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\bin*" if left blank.
