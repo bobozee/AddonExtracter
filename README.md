@@ -11,6 +11,8 @@ Make sure to be signed into Steam if you wish for your workshop addon to be upda
   - **-workshopId**: The ID of your workshop (content) addon. If left blank, this script will just directly throw out the content compressed into one folder, called *extracted-addon-content*, at the same location as the script.
 
   - **-changeNote**: The change note to push to the workshop update. Defaults to "*Updated content*" if left blank.
+    
+  - **-addonJson**: The path to the *addon.json* file for your workshop addon. Defaults to the current directory.
 
   - **-addonsDir**: The path to your Garry's Mod addons. These have to be extracted addons (with lua, models, etc folder, NOT .gma). If you extract local addons from your server, then point to the addons folder of your server. Defaults to "*C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\addons*" if left blank.
 
